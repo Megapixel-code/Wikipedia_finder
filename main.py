@@ -75,7 +75,6 @@ if __name__ == '__main__':
     depth_search = -1
     x = search(starting_page, ending_page, 'Main Page', depth_search)
     while x is None:
-        # visited_sites = {}
         depth_search += 1
         x = search(starting_page, ending_page, 'Main Page', depth_search)
 
